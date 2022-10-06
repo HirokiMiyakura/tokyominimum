@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* スライダーのwrapper */
+.infinite-slider .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+/* スライド */
+.infinite-slider .swiper-slide {
+  height: 100px !important; /* 高さを指定 */
+  width: auto !important;
+}
+
+/* スライド内の画像 */
+.infinite-slider .swiper-slide img {
+  width: auto;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  /* スライダーのwrapper */
+  .infinite-slider {
+    width: 480px !important;
+  }
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-slide {
+  width: 60%;
+  width: 300px;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+  width: 300px;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+  width: 300px;
+}
+
+#otoku,
+#voice {
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  width: 300px;
+  max-width: 940px !important;
+  max-width: 300px !important;
+  margin: 0 auto !important;
+  overflow: visible !important;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 420px;
+    max-width: 420px !important;
+  }
+}/*# sourceMappingURL=swiper.css.map */
